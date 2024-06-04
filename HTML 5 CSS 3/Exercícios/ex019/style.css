@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+    /*
+    Medidas Absolutas
+    cm, mm, in, px, pt, pc 
+
+    Medidas Relativas
+    em, ex, rem, vw, vh, %
+
+    Recomendações:
+    px e em
+    px é o tamanho da fonte baseada em pixels 
+    em é o total de tamanho relativo ao tamanho da fonte principal do navegador.
+    */
+    font-size: 1em;
+}
+
+h1 {
+    font: italic bolder 3em 'Work Sans', sans-serif;
+
+    /*
+
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 3em;
+    font-style: italic;
+
+    Shorthand font
+    - font-style -> cont-weight -> font-size -> font-family
+    */
+}
+
+h2 {
+    font: bold 2em 'Work Sans';
+}
