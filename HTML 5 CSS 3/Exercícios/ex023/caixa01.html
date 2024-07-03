@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de caixas</title>
+    <style>
+        h1 { /*box-level*/
+            /*ShortHands são propriedades de múltiplos valores.*/
+            background: lightgray;
+            height: 300px;
+            width: 300px;
+
+            /*Cria uma borda no contorno da caixa.*/
+
+            border: 10px solid darkslategray; /*border width border style border color*/
+
+            /*Aqui configuramos a distância entre a margem interna e o conteúdo.*/
+
+            padding: 10px; /*Quando eu coloco apenas um valor dentro do padding, isto significa que todos os lados vão ter a mesma medida que no caso é de 10px.*/
+
+            /*Aqui configuramos a distância entre os elementos, ou configuramos uma margem fora da margem principal.*/
+
+            margin: 20px auto 40px auto; /*top right bottom left*/
+
+            /*Aqui configuramos uma linha fora da borda da caixa*/
+            outline: 5px dashed salmon;
+        }
+
+        a { /*inline-level*/
+            border: 10px solid red;
+
+            padding: 10px 10px; /* Se eu colocar dois valores vamos ter alteração nos lados equivalentes. top bottom / left right*/
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#">Links são exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona na pratica.</p>
+</body>
+</html>

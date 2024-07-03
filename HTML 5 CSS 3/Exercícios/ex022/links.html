@@ -15,19 +15,23 @@
             font-weight: bold;
         }
 
+         /*A baixo está uma configuração para depois que o usuário tenha acessado o link, ele irá mudar de cor para darkred.*/
         a:visited {
             color: darkred;
         }
 
+        /*A baixo está uma configuração para quando o usuário passe o mouse sobre o conteúdo ele muda de cor para preto coloque uma underline no texto.*/
         a:hover {
             color: black;
             text-decoration: underline;
         }
 
+        /*A baixo está uma configuração de que quando o usuário estiver pressionando o link, ela define a cor do texto para amarelo.*/
         a:active {
             color: yellow;
         }
-
+        
+        /*A baixo vamos adicionar um conteúdo " [link]" antes do link.*/
         a::before {
             content: ' [link]';
             text-decoration: none;
