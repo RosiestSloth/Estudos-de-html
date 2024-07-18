@@ -1,4 +1,4 @@
-# Meus Testes em HTML e Estudos do Curso em Vídeo
+# Meus Testes em HTML e Estudos do Curso em Vídeo de HTML
 
 Este repositório contém meus projetos de testes em HTML e os exercícios realizados durante o Curso em Vídeo. Aqui é onde eu mostro toda a minha tragetória de conhecimentos na Linguagem de marcação HTML5 e na linguagem de estilização CSS3
 
