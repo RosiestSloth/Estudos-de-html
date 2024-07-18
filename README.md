@@ -9,13 +9,14 @@ Aqui eu dedico minha tragetória nos estudos de HTML5 e CSS3, venha acompanhar e
 2. Abra os arquivos HTML em um navegador para visualizar os testes.
 
 ## Estrutura
-- /Desafios
--  /Desafio01
-   - index.html
-   - style.css
-- /Exercícios
-  - /ex 001
-   - index.html
-   - style.css
+- /HTML5 CSS3
+ - /Desafios
+ -  /Desafio01
+    - index.html
+    - style.css
+ - /Exercícios
+   - /ex 001
+    - index.html
+    - style.css
 
 ## Você pode entrar em contato comigo por minhas redes sociais. 
