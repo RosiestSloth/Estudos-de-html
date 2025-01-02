@@ -130,6 +130,13 @@ nav {
     font-weight: bold;
 }
 
+@media (max-width: 520px) {
+    nav > a {
+        padding: 5px;
+        font-size: 0.8em;
+    }
+}
+
 nav > a {
     color: white;
     padding: 10px;
