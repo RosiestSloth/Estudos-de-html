@@ -132,8 +132,8 @@ nav {
 
 @media (max-width: 520px) {
     nav > a {
-        padding: 5px;
-        font-size: 0.8em;
+        padding: 5px !important;
+        font-size: 0.9em;
     }
 }
 
